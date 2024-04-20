@@ -103,7 +103,7 @@ const config: HardhatUserConfig = {
     },
     morphTest: {
       url: 'https://rpc-testnet.morphl2.io' || '',
-      gasPrice: 30000000000,
+      gasPrice: 10000000000,
       accounts: {
         count: 12,
         mnemonic,

@@ -77,7 +77,6 @@ contract Recipe is ERC1155URIStorage, ERC2981 {
         TokenType storage tokenType = tokenTypes[_tokenType];
         require(tokenType.maxSupply > tokenType.currentSupply, "Recipe: All token copies have been minted");
         require(msg.value >= tokenType.pricePerCopy, "Recipe: Insufficient payment");
-        require(balanceOf(msg.sender,_tokenType) == 0, "Recipe: You cannot mint more than one copy of the same token type");
 
         tokenType.currentSupply++;
         _mint(msg.sender, _tokenType, 1, "");
