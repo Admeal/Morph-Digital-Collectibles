@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bobur1/nftFactory.git"
+    "url": "git+https://github.com/Admeal/Morph-Digital-Collectibles.git"
   },
   "author": "Bobur Zaitov",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/bobur1/admeal/issues"
+    "url": "https://github.com/Admeal/Morph-Digital-Collectibles/issues"
   },
-  "homepage": "https://github.com/bobur1/admeal#readme",
+  "homepage": "https://github.com/Admeal/Morph-Digital-Collectibles#readme",
   "devDependencies": {
     "@nomicfoundation/hardhat-verify": "^2.0.4",
     "@nomiclabs/hardhat-ethers": "^2.0.4",
